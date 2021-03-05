@@ -28,6 +28,6 @@ Esto debe venir en un proyecto NodeJS.
 
 ## Coverage
 
-1. **npm run coverage**.
+1. **npm run coverage** or **npm run test-coverage**.
 
 ---

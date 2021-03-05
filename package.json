@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node .",
     "test": "mocha",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test",
+    "test-coverage": "nyc --reporter=html ./node_modules/mocha/bin/mocha ./test/*.spec.js -t 10000"
   },
   "author": "go.espinoza.a@gmail.com",
   "license": "ISC",
