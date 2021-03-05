@@ -7,14 +7,14 @@ class Numeros {
     const numerosPrimos = [];
 
     for (; j < numero; j++) {
-      if (this.primo(j)) {
+      if (this.isPrimo(j)) {
         numerosPrimos.push(j);
       }
     }
     return numerosPrimos;
   }
 
-  primo(numero) {
+  isPrimo(numero) {
     for (var i = 2; i < numero; i++) {
       if (numero % i === 0) {
         return false;

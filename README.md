@@ -11,6 +11,17 @@ Esto debe venir en un proyecto NodeJS.
 
 1. Click **Clone**.
 2. **npm install**.
-3. **npm start** or **node .\index.js**.
+
+---
+
+## Run
+
+1. **npm start** or **node .\index.js**.
+
+---
+
+## Unit
+
+1. **npm test**.
 
 ---
