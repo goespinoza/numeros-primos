@@ -25,3 +25,9 @@ Esto debe venir en un proyecto NodeJS.
 1. **npm test**.
 
 ---
+
+## Coverage
+
+1. **npm run coverage**.
+
+---
